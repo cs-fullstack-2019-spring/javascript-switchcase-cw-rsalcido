@@ -12,22 +12,26 @@
 main();
 function main() {
 
+    for (var i=0; i<=5; i++) {
+    console.log(i);
 
-    var expr = prompt("Is a teacher, student, or parent checking in?");
-    attendace = [];
-    switch (expr) {
-        case "teacher":
-            attendace.push["teacher"];
-            break;
-        case "student":
-            attendace.push["student"];
-            break;
-        case "parent":
-            attendance.push["parent"];
-            break;
+        var expr = prompt("Is a teacher, student, or parent checking in?");
+        attendace = [];
+        switch (expr) {
+            case "teacher":
+                attendace.push["teacher"];
+                break;
+            case "student":
+                attendace.push["student"];
+                break;
+            case "parent":
+                attendace.push["parent"];
+                break;
+        }
+
     }
 
-    console.log(attendance);
+    console.log(attendace)
 
 }
 
